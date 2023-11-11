@@ -1,0 +1,751 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Kufam:ital@1&display=swap');
+@import url("https://db.onlinewebfonts.com/c/c144af7d488f9069913d40dee3cd1f70?family=Algerian");
+/* Font */
+
+/* General */
+
+a {
+    text-decoration: none;
+}
+/* General /*
+
+/* Utilties */
+.d-none {
+    display: none !important;
+}
+.d-block {
+    display: block !important;
+}
+
+.text-blue {
+    color: #3A55A4 !important;
+}
+
+body {
+    font-family: 'Algerian', sans-serif;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    background-color: #F7EEDE;
+}
+
+textarea {
+    font-family: 'Algerian', sans-serif;
+}
+
+
+/* Intro */
+.intro {
+    height: 100vh;
+    width: 100%;
+}
+
+video {
+    object-fit: fill;
+}
+
+/* Intro */
+
+
+/* Home */
+.home {
+    height: 100vh;
+    position: relative;
+}
+
+/* Home */
+
+.separate {
+    padding: 25px;
+    background-color: #B5CEB6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.g-rectangle {
+    position: absolute;
+    width: 0;
+	height: 0;
+	border-left: 150px solid transparent;
+	border-right: 150px solid transparent;
+	border-top: 253px solid #B5CEB6;
+    top: 112px;
+    left: 105px;
+}
+
+.p-rectangle {
+    position: absolute;
+    top: 115px;
+    left: 70px;
+    z-index: -20;
+}
+
+.path {
+    position: absolute;
+    top: 364px;
+    left: 236px;
+}
+
+.blue-hallom {
+    color: #4d297b;
+    position: absolute;
+    top: 50px;
+    left: 202px;
+    font-size: 60px;
+}
+
+.bottom-path {
+    position: absolute;
+    bottom: 0;
+    right: -60px;
+}
+
+.bottom-group {
+    position: absolute;
+    bottom: 20px;;
+    right: 0;
+    z-index: 100;
+}
+
+.header ul {
+    display: flex;
+}
+
+.header ul li {
+    list-style-type: none;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+
+.header ul li a {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    color: #3A55A4;
+    margin: 0 20px;
+    font-weight: bold;
+    position: relative;
+}
+
+.header ul li .rectangle {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-top: 50px solid #F7EEDE;
+    top: 60px;
+}
+
+
+
+.header ul li a:hover {
+    color: #654F89;
+}
+
+.logo {
+    position: absolute;
+    left: 150px;
+    top: 15px;
+    z-index: 3000;
+}
+
+.logo img {
+    width: 200px;
+}
+
+
+.header ul li:first-child a {
+    margin: 0;
+}
+
+.rect {
+    position: absolute;
+    left: 500px;
+    top: 250px;
+    height: 350px;
+    width: 350px;
+
+}
+
+.green-shape {
+    position: absolute;
+    left: 536px;
+    top: 273px;
+    height: 350px;
+    width: 350px;
+    z-index: -3;
+}
+
+.green-shape img {
+    height: 350px;
+    width: 350px;
+}
+
+.word-hallom {
+    position: absolute;
+    left: 855px;
+    top: 283px;
+    height: 350px;
+    font-size: 50px;
+    color: #0B8140;
+    text-align: center;
+}
+.word-hallom h3 {
+    margin: 0;
+}
+
+.rect-image img {
+    height: 400px;
+    width: 400px;
+}
+
+.rect-content {
+    position: absolute;
+    top: 91px;
+    right: 50px;
+}
+
+.rect-content p {
+    font-size: 20px;
+    text-align: center;
+    color: #562F76;
+    padding: 0 40px;
+    font-weight: bold
+}
+
+.dots {
+    position: absolute;
+    top: 455px;
+    left: 242px;
+}
+
+.dots .dot {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: #ED1E24;
+    margin-top: 15px;
+}
+
+
+.dots .dot:first-child {
+    margin-top: 0;
+}
+
+
+.r-dots {
+    position: absolute;
+    top: 509px;
+    left: 815px;
+    transform: rotate(45deg);
+}
+
+.r-dots .r-dot {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: #E59325;
+    margin-top: 15px;
+}
+
+
+.r-dots .r-dot:first-child {
+    margin-top: 0;
+}
+
+
+
+/* South */
+.south360-abs {
+    position: absolute;
+    left: 500px;
+    top: 250px;
+}
+
+.south360-abs2 {
+    position: absolute;
+    left: 870px;
+    top: 250px;
+}
+
+.bg-image-triangle {    
+    width: 300px;
+    height: 225px;
+    margin: auto;
+    object-fit: cover;
+    background-image: url("../media/images/baha.png");
+    background-size: cover;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  }
+
+  .bg-image-trianglea {
+    background-image: url("../media/images/makr.png");
+  }
+
+.bottom-element {
+    width: 0px;
+    height: 0px;
+    border: 175px solid;
+    border-color: #F5E4CE transparent transparent transparent;
+    border-width: 200px 150px 0 150px;
+    display: flex;
+}
+.bottom-element h1 {
+    font-size: 30px;
+    color: #237240;
+    position: absolute;
+    top: 230px;
+    left: 100px;
+}
+
+.s-dots {
+    position: absolute;
+    top: 550px;
+    left: 910px;
+    transform: rotate(145deg);
+}
+
+.ss-dots {
+    top: 300px;
+    left: 750px;
+}
+
+.s-dots .s-dot {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: #E59325;
+    margin-top: 15px;
+}
+
+
+.s-dots .s-dot:first-child {
+    margin-top: 0;
+}
+
+.southLinks {
+    padding: 50px;
+}
+
+.station, .station a {
+    font-size: 25px;
+    color: #EE3E22;
+}
+.station a {
+    display: inline-block;
+    margin-top: 30px;
+}
+.station2 {
+    margin-top: 50px;
+}
+.station2, .station2 a {
+    color: #E59325;
+}
+
+.southBack {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #ED1E24;
+    text-align: center;
+    font-size: 16px;
+    color: #FFF;
+    cursor: pointer;
+    top: 610px;
+    left: 292px;
+    position: absolute;
+}
+
+.frames {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.frames iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+}
+
+.frames .frameBack {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #ED1E24;
+    text-align: center;
+    font-size: 16px;
+    color: #FFF;
+    cursor: pointer;
+    bottom: 50px;
+    left: 50px;
+    position: absolute;
+    z-index: 9999;
+}
+
+/* South */
+
+/* Guide */
+.guide {
+    position: relative;
+}
+
+.guide .left-guide-green {
+    position: absolute;
+    left: 600px;
+    top: 80px;
+    cursor: pointer;
+}
+.guide .right-guide-blue {
+    position: absolute;
+    left: 886px;
+    top: 80px;
+    cursor: pointer;
+}
+.guide .left-guide-blue {
+    position: absolute;
+    left: 436px;
+    top: 300px;
+    cursor: pointer;
+}
+.guide .right-guide-green {
+    position: absolute;
+    left: 738px;
+    top: 300px;
+    cursor: pointer;
+}
+.guide .left-guide-green .icon {
+    position: absolute;
+    top: 80px;
+    left: 80px;
+}
+.guide .right-guide-blue .icon {
+    position: absolute;
+    top: 65px;
+    left: 65px;
+}
+.text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 25px;
+    color: #FFF;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text h3 {
+    text-align: center;
+}
+.guide .left-guide-blue .icon {
+    position: absolute;
+    top: 80px;
+    left: 95px;
+}
+.guide .right-guide-green .icon {
+    position: absolute;
+    top: 90px;
+    left: 80px;
+}
+.guide .left-guide-green .specialDots, .guide .left-guide-blue .specialDots {
+    position: absolute;
+    top: -40px;
+    left: 30px;
+    transform: rotate(45deg);
+}
+
+.guide .right-guide-blue .specialDots, .guide .right-guide-green .specialDots {
+    position: absolute;
+    left: 30px;
+    bottom: -40px;
+    transform: rotate(135deg);
+}
+
+.guide .left-guide-green .specialDot, .guide .right-guide-blue .specialDot, .guide .left-guide-blue .specialDot, .guide .right-guide-green .specialDot {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #E59325;
+    margin-top: 15px;
+}
+.back {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #ED1E24;
+    text-align: center;
+    font-size: 16px;
+    color: #FFF;
+    cursor: pointer;
+    top: 450px;
+    left: 223px;
+    position: absolute;
+}
+.ai {
+    top: 450px;
+    left: 178px;
+    position: absolute;
+    text-align: center;
+}
+.ai .ai-image {
+    cursor: pointer;
+}
+.ai .ai-image img {
+    height: 60px;
+    width: 60px;
+}
+.ai h3 {
+    color: #519B67;
+    margin: 0;
+    font-size: 16px;
+}
+.right-aiContent {
+    position: absolute;
+    right: 250px;
+    top: 200px;
+}
+.left-aiContent {
+    position: absolute;
+    right: 650px;
+    top: 200px;
+}
+.right-aiContent .ai-rect, .left-aiContent .ai-rect {
+    position: absolute;
+}
+.right-aiContent .ai-rect .ai-image, .left-aiContent .ai-rect .ai-image {
+    position: absolute;
+}
+.right-aiContent .ai-rect .ai-image {
+    top: 10px;
+}
+.right-aiContent .ai-rect .ai-image img {
+    height: 125px;
+}
+.left-aiContent .ai-rect .ai-image img  {
+    height: 150px;
+}
+.right-aiContent .ai-rect .ai-path {
+    position: absolute;
+    top: -6px;
+    right: -15px;
+}
+.left-aiContent .ai-rect .ai-path {
+    position: absolute;
+    top: -12px;
+    right: -13px;
+}
+.right-aiContent .ai-rect .ai-path img {
+    height: 150px;
+}
+.left-aiContent .ai-rect .ai-path img {
+    height: 175px;
+}
+.right-aiContent .ai-rect .ai-word {
+    position: absolute;
+    color: #FFF;
+    font-size: 25px;
+    right: 45px;
+    top: 30px;
+}
+.left-aiContent .ai-rect .ai-word {
+    position: absolute;
+    color: #FFF;
+    right: 29px;
+    top: 60px;
+    width: 100px;
+}
+.left-aiContent .ai-rect .ai-word select {
+    font-size: 20px;
+    width: 100%;
+}
+.left-aiContent .ai-rect .ai-word span {
+    display: block;
+}
+
+.right-aiContent .ai-rect:nth-child(2) {
+    top: 176px;
+}
+.right-aiContent .ai-rect:last-child {
+    top: 355px;
+}
+.left-aiContent .ai-rect:nth-child(2) {
+    top: 180px;
+}
+.left-aiContent .ai-rect:last-child {
+    top: 360px;
+}
+/* Guide */
+
+/* About */
+.about .goals {
+    position: absolute;
+    left: 950px;
+    top: 175px;
+}
+.about .aboutDef {
+    position: absolute;
+    left: 1500px;
+    top: 175px;
+}
+.about .goals .image {
+    position: absolute;
+    right: 195px;
+    top: 80px;
+}
+.about .aboutDef .image {
+    position: absolute;
+    right: 270px;
+    top: 80px;
+}
+.about .goals .image img, .about .aboutDef .image img {
+    height: 450px;
+    width: 450px;
+}
+.about .goals .word {
+    color: #4D297B;
+    font-size: 50px;
+    position: absolute;
+    top: 0;
+    right: 300px;
+    width: 300px;
+    top: 70px;
+}
+.about .aboutDef .word {
+    color: #4D297B;
+    font-size: 50px;
+    position: absolute;
+    top: 70px;
+    right: 344px;
+    width: 300px;
+}
+.about .goals .content {
+    position: absolute;
+    color: #4D297B;
+    font-size: 18px;
+    width: 275px;
+    top: 214px;
+    right: 302px;
+}
+.about .aboutDef .content {
+    position: absolute;
+    color: #4D297B;
+    font-size: 16px;
+    width: 275px;
+    top: 214px;
+    right: 383px;
+}
+/* About */
+
+/* Visitors */
+.visitors {
+    padding: 80px 150px;
+}
+.visitors .reviews .review {
+    position: relative;
+    margin-top: 50px;
+}
+.visitors .reviews .review:first-child {
+    margin-top: 0;
+}
+.visitors .reviews .review .name {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: #F8F5F0;
+    border: 1px solid #EEE8DF;
+    border-radius: 50%;
+    color: #4D297B;
+    font-size: 22px;
+    line-height: 50px;
+    text-align: center;
+    top: -40px;
+    right: -30px;
+}
+.visitors .reviews .review .comment {
+    padding: 15px;
+    background-color: #FFF9EE;
+    color: #4D297B;
+    font-size: 25px;
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.visitors .reviews .review .comment p {
+    margin: 0;
+}
+
+.visitors .reviews .review .comment .star {
+    display: flex;
+    align-items: center;
+}
+.visitors .reviews .review .comment .star span {
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.options {
+    width: 55%;
+    padding: 35px 15px;
+    display: flex;
+}
+.options .express {
+    width: 50%;
+}
+.options .form {
+    width: 50%;
+    padding-right: 15px;
+}
+.options .form .actions {
+    margin-top: 8px;
+}
+.options .form .actions button {
+    border: none;
+    padding: 12px 15px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 8px; 
+    color: #FFF;
+}
+.options .form .actions button:first-child {
+    background-color: #009f00;
+}
+.options .form .actions button:last-child {
+    background-color: #d40000;
+}
+.options .form input, .options .form textarea {
+    height: 40px;
+    border: 1px solid #DDD;
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 16px;
+} 
+
+.subscribeDiv {
+    margin-top: 15px;
+}
+.subscribe {
+    border: none;
+    padding: 15px 60px;
+    background-color: #FFF9EE;
+    color: #E0C092;
+    font-size: 30px;
+    cursor: pointer;
+}
+ 
+/* Visitors */

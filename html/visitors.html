@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/star-rating.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="icon" type="image/x-icon" href="../media/images/logo.svg">
+    <title>هلِّم - الرئيسية</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="separate">
+            <div class="header">
+                <ul>
+                    <li class="list-item">
+                        <a href="index.html">الرئيسية</a>
+                        <div class="rectangle"></div>
+                    </li>
+                    <li class="list-item">
+                        <a href="south.html">الجنوب بعينك</a>
+                        <div class="rectangle"></div>
+                    </li>
+                    <li class="list-item">
+                        <a href="guide.html">دليلك</a>
+                        <div class="rectangle"></div>
+                    </li>
+                    <li class="list-item" style="margin: 0 20px">
+                        <a href="about.html">من نحن</a>
+                        <div class="rectangle"></div>
+                    </li>
+                    <li class="list-item">
+                        <a href="visitors.html" style="color: #654F89">آراء الزوار</a>
+                        <div class="rectangle"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="logo">
+                <img src="../media/images/logo.svg" />
+            </div>
+            <div class="g-rectangle">
+            </div>
+            <div class="p-rectangle">
+                <img src="../media/images/p_rectangle.png" />
+            </div>
+            <div class="path">
+                <img src="../media/images/path.png" />
+            </div>
+            <div class="blue-hallom">
+                <h3>هلِّم</h3>
+            </div>
+        </div>
+        <div class="bottom-path">
+            <img src="../media/images/bottom_path.svg" />
+        </div>
+        <div class="bottom-group">
+            <img src="../media/images/bottom_group.svg" />
+        </div>
+        <div class="dots">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+        <section class="visitors" id="visitors">
+            <div class="reviews" id="reviews">
+                <div class="review">
+                    <div class="name"><span>أمل</span></div>
+                    <div class="comment">
+                        <p>أفضل مرجع للسياحة في المنطقة الجنوبية</p>
+                        <div class="star">
+                            <span style="font-family: sans-serif">5</span>
+                            <img src="../media/images/star.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="options">
+                <div class="expression">
+                    <select class="star-rating">
+                        <option value="">Select a rating</option>
+                        <option value="5">Excellent</option>
+                        <option value="4">Very Good</option>
+                        <option value="3">Average</option>
+                        <option value="2">Poor</option>
+                        <option value="1">Terrible</option>
+                    </select>
+                    <div class="subscribeDiv">
+                        <button type="button" class="subscribe" id="subscribe">شاركنا رأيك</button>
+                    </div>
+                </div>
+                <div class="form" id="form" style="display: none;">
+                    <div style="margin-bottom: 8px;">
+                        <input type="text" placeholder="الاسم" id="name"/>
+                    </div>
+                  <div>
+                    <textarea placeholder="اكتب رأيك" id="opinion"></textarea>
+                  </div>
+                  <div class="actions">
+                    <button type="button" id="sendOpinion">أرسل</button>
+                    <button type="button" id="cancelForm" style="margin-right: 8px">إلغاء</button>
+                  </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="../scripts/star-rating.min.js"></script>
+    <script src="../scripts/visitors.js"></script>
+</body>
+
+</html>
